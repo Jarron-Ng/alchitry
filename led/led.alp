@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="led" board="Alchitry Au" language="Lucid" version="3">
+  <files>
+    <src>ledstrip.luc</src>
+    <component>pipeline.luc</component>
+    <component>reset_conditioner.luc</component>
+    <component>edge_detector.luc</component>
+    <src top="true">au_top.luc</src>
+    <component>button_conditioner.luc</component>
+    <constraint>au.xdc</constraint>
+    <constraint>custon.acf</constraint>
+  </files>
+</project>
